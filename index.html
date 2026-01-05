@@ -383,21 +383,21 @@
                 
                 switch(id) {
                     case 'offside':
-                        return <img src="images/offside.jpg" alt="오프사이드" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (offside.jpg)')}} />;
+                        return <img src="images/offside.png" alt="오프사이드" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (offside.png)')}} />;
                     case 'penalty':
-                        return <img src="images/penalty.jpg" alt="페널티킥" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (penalty.jpg)')}} />;
+                        return <img src="images/penalty.png" alt="페널티킥" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (penalty.png)')}} />;
                     case 'freekick':
-                        return <img src="images/freekick.jpg" alt="프리킥" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (freekick.jpg)')}} />;
+                        return <img src="images/freekick.png" alt="프리킥" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (freekick.png)')}} />;
                     case 'corner':
-                        return <img src="images/corner.jpg" alt="코너킥" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (corner.jpg)')}} />;
+                        return <img src="images/corner.png" alt="코너킥" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (corner.png)')}} />;
                     case 'substitution':
-                        return <img src="images/substitution.jpg" alt="선수 교체" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (substitution.jpg)')}} />;
+                        return <img src="images/substitution.png" alt="선수 교체" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (substitution.png)')}} />;
                     case 'yellowcard':
-                        return <img src="images/yellowcard.jpg" alt="옐로카드" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (yellowcard.jpg)')}} />;
+                        return <img src="images/yellowcard.png" alt="옐로카드" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (yellowcard.png)')}} />;
                     case 'redcard':
-                        return <img src="images/redcard.jpg" alt="레드카드" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (redcard.jpg)')}} />;
+                        return <img src="images/redcard.png" alt="레드카드" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (redcard.png)')}} />;
                     case 'goal':
-                        return <img src="images/goal.jpg" alt="골" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (goal.jpg)')}} />;
+                        return <img src="images/goal.png" alt="골" className={imgClass} onError={(e) => {e.target.onerror = null; e.target.parentNode.innerHTML = placeholder('이미지 준비중 (goal.png)')}} />;
                     default:
                         return <div className="w-full h-56 bg-gray-200 rounded-xl mb-4 flex items-center justify-center text-gray-400">이미지 준비중</div>;
                 }
@@ -603,4 +603,5 @@
         root.render(<SoccerRulesApp />);
     </script>
 </body>
+
 </html>
